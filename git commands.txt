@@ -21,3 +21,11 @@ git branch "NAME_OF_BRANCH"		create a branch
 git checkout "NAME_OF_BRANCH"		To move to another branch. It's just like the cd command
 
 git merge "SOURCE_BRANCH"		Merge the source into a dest branch(checkout to dest branch before command)
+
+git rebase "DEST_BRANCH"		Be in a source branch. It is used to reduce the no branches.
+
+ssh-keygen -t rsa -C "EMAIL"		To generate a key for pushing. Also add this key to github acc through settings.
+
+ssh -T git@github.com			To verify the key
+
+git push origin "BRANCH_NAME"		push the code to github
