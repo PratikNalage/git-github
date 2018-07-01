@@ -1,0 +1,11 @@
+git init				To initialize a repository
+
+git remote add origin "URL"		To add a repo from gitHub
+
+git config --local -e			Opens configuration, (Remove the special characters if any)
+
+git pull origin master			To pull files from gitHub master branch
+
+git status				To check if files are added in index or not
+
+git add "FILE_NAME"			To add a file to index
