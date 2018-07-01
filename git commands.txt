@@ -9,3 +9,9 @@ git pull origin master			To pull files from gitHub master branch
 git status				To check if files are added in index or not
 
 git add "FILE_NAME"			To add a file to index
+
+git add -A				To add all files at once to index
+
+git commit -m "YOUR_MESSAGE"		To commit 
+
+git commit -a -m "YOUR_MESSAGE"		To commit multiple files
