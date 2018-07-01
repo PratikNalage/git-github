@@ -29,3 +29,7 @@ ssh-keygen -t rsa -C "EMAIL"		To generate a key for pushing. Also add this key t
 ssh -T git@github.com			To verify the key
 
 git push origin "BRANCH_NAME"		push the code to github
+
+git log					Gives a log of all commits
+
+git checkout "HASH" "FILE_NAME"		To revert a file
