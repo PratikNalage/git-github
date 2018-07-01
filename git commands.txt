@@ -15,3 +15,9 @@ git add -A				To add all files at once to index
 git commit -m "YOUR_MESSAGE"		To commit 
 
 git commit -a -m "YOUR_MESSAGE"		To commit multiple files
+
+git branch "NAME_OF_BRANCH"		create a branch
+
+git checkout "NAME_OF_BRANCH"		To move to another branch. It's just like the cd command
+
+git merge "SOURCE_BRANCH"		Merge the source into a dest branch(checkout to dest branch before command)
